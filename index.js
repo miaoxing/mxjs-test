@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 export function createPromise() {
   let res, rej;
 
@@ -33,4 +35,15 @@ export function setUrl(path) {
 
 export function resetUrl() {
   window.location = originalLocation;
+}
+
+export function bootstrap() {
+  const file = '../../plugins/app/modules/bootstrap.js';
+  if (fs.existsSync(file)) {
+    // from packages/mxjs-test
+    require(file);
+  } else {
+    // from node_modules/@mxjs/test
+    require(__dirname + '/../plugins/app/modules/bootstrap.js');
+  }
 }
