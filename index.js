@@ -38,7 +38,7 @@ export function resetUrl() {
 }
 
 export function bootstrap() {
-  const file = '../../plugins/app/modules/bootstrap.js';
+  const file = __dirname + '/../../plugins/app/modules/bootstrap.js';
   if (fs.existsSync(file)) {
     // from packages/mxjs-test
     require(file);
