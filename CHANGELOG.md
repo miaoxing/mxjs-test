@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/miaoxing/mxjs-test/compare/v0.1.0...v0.1.1) (2021-03-05)
+
+
+### Bug Fixes
+
+* 判断文件使用完整目录，以便在任意目录都能正确加载 ([7f74c3d](https://github.com/miaoxing/mxjs-test/commit/7f74c3d87e11c90d0073743cf6a4e0db48f830a0))
+
 # 0.1.0 (2020-09-25)
 
 
