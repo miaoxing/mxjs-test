@@ -1,4 +1,5 @@
-import fs from 'fs';
+import {req, url} from '@mxjs/app';
+import $ from 'miaoxing';
 
 export function createPromise() {
   let res, rej;
@@ -38,12 +39,7 @@ export function resetUrl() {
 }
 
 export function bootstrap() {
-  const file = __dirname + '/../../plugins/app/modules/bootstrap.js';
-  if (fs.existsSync(file)) {
-    // from packages/mxjs-test
-    require(file);
-  } else {
-    // from node_modules/@mxjs/test
-    require(__dirname + '/../plugins/app/modules/bootstrap.js');
-  }
+  $.req = req.get.bind(req);
+  $.url = url.to.bind(url);
+  $.apiUrl = url.api.bind(url);
 }
