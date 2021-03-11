@@ -1,5 +1,6 @@
+import $, {Ret} from 'miaoxing';
 import {req, url} from '@mxjs/app';
-import $ from 'miaoxing';
+import axios from '@mxjs/axios';
 
 export function createPromise() {
   let res, rej;
@@ -39,6 +40,7 @@ export function resetUrl() {
 }
 
 export function bootstrap() {
+  $.http = (...args) => axios(...args).then(({data}) => new Ret(data));
   $.req = req.get.bind(req);
   $.url = url.to.bind(url);
   $.apiUrl = url.api.bind(url);
