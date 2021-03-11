@@ -1,3 +1,11 @@
+## [0.1.2](https://github.com/miaoxing/mxjs-test/compare/v0.1.1...v0.1.2) (2021-03-11)
+
+
+### Bug Fixes
+
+* bootstrap 方法改为不依赖 app 插件，直接初始化核心方法 ([14207e5](https://github.com/miaoxing/mxjs-test/commit/14207e530797cac30ee880ca24b33cf2ea29645b))
+* 增加依赖 ([157ea31](https://github.com/miaoxing/mxjs-test/commit/157ea31c0221144a901c546716ec39a0af020a25))
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-test/compare/v0.1.0...v0.1.1) (2021-03-05)
 
 
