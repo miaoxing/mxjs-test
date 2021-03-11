@@ -1,3 +1,19 @@
+## [0.1.3](https://github.com/miaoxing/mxjs-test/compare/v0.1.2...v0.1.3) (2021-03-11)
+
+
+### Bug Fixes
+
+* 增加 `$.http` 方法 ([e4ac3a4](https://github.com/miaoxing/mxjs-test/commit/e4ac3a48f712e0ebb330b4624bc5a66e5ac82acc))
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.1.10` to `0.2.0`
+* **@mxjs/axios:** upgrade from `0.1.1` to `0.1.2`
+
 ## [0.1.2](https://github.com/miaoxing/mxjs-test/compare/v0.1.1...v0.1.2) (2021-03-11)
 
 
