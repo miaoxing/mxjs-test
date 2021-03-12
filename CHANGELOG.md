@@ -1,3 +1,15 @@
+## [0.1.4](https://github.com/miaoxing/mxjs-test/compare/v0.1.3...v0.1.4) (2021-03-12)
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.2.0` to `0.2.1`
+* **@mxjs/app:** upgrade from `0.2.7` to `0.2.8`
+* **@mxjs/axios:** upgrade from `0.1.2` to `0.1.3`
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-test/compare/v0.1.2...v0.1.3) (2021-03-11)
 
 
