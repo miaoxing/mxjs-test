@@ -12,5 +12,15 @@
     "miaoxing": "^0.2.3",
     "@mxjs/app": "^0.3.0",
     "@mxjs/axios": "^0.1.5"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.4.0"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev"
   }
 }
