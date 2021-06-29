@@ -40,7 +40,10 @@ export function resetUrl() {
 }
 
 export function bootstrap() {
-  $.http = (...args) => axios(...args).then(({data}) => new Ret(data));
+  $.http = (...args) => axios(...args).then(res => {
+    res.ret = new Ret(res.data);
+    return res;
+  });
   $.req = req.get.bind(req);
   $.url = url.to.bind(url);
   $.apiUrl = url.api.bind(url);
