@@ -32,6 +32,7 @@ export function setUrl(path) {
     pathname: url.pathname,
     href: url.href,
     search: url.search,
+    reload: () => {},
   };
 }
 
