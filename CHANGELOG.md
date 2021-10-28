@@ -1,3 +1,31 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-test/compare/v0.1.8...v0.2.0) (2021-10-28)
+
+
+### Bug Fixes
+
+* **test:** 增加 `window.location.reload` 方法 ([2abfe42](https://github.com/miaoxing/mxjs-test/commit/2abfe42ad2cfab4fc3a3d09692b8311d136ca4e0))
+
+
+### Code Refactoring
+
+* **$.http:** `$.http` 改为返回原始 `response` 对象，其中包含 `ret` 对象 ([ad12def](https://github.com/miaoxing/mxjs-test/commit/ad12def76aba9b1e6f26538f0a4801d409a13902))
+
+
+### BREAKING CHANGES
+
+* **$.http:** `$.http` 改为返回原始 `response` 对象，其中包含 `ret` 对象
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **@mxjs/app:** upgrade from `0.3.2` to `0.3.3`
+* **@mxjs/axios:** upgrade from `0.1.7` to `0.1.8`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.1.8](https://github.com/miaoxing/mxjs-test/compare/v0.1.7...v0.1.8) (2021-05-12)
 
 
