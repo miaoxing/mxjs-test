@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/test",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
@@ -9,12 +9,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "miaoxing": "^0.4.0",
-    "@mxjs/app": "^0.4.0",
-    "@mxjs/axios": "^0.1.9"
+    "miaoxing": "^0.4.1",
+    "@mxjs/app": "^0.4.1",
+    "@mxjs/axios": "^0.1.10"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^8.0.1"
+    "@miaoxing/dev": "^8.1.0"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"
