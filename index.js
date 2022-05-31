@@ -51,6 +51,11 @@ export function resetUrl() {
 }
 
 export function bootstrap() {
+  // TODO 统一配置
+  if (window.miaoxing !== 'undefined' && window.miaoxing.apiRewrite) {
+    url.setOption('apiRewrite', window.miaoxing.apiRewrite);
+  }
+
   $.http = (...args) => axios(...args).then(res => {
     res.ret = new Ret(res.data);
     return res;
