@@ -1,5 +1,5 @@
 import $, {Ret} from 'miaoxing';
-import {req, url} from '@mxjs/app';
+import {req, url, history} from '@mxjs/app';
 import axios from '@mxjs/axios';
 
 export function createPromise() {
@@ -23,6 +23,7 @@ export function createPromise() {
 }
 
 const originalLocation = window.location;
+const originalHistoryLocation = history.location;
 
 export function setUrl(path) {
   const url = new URL(path, 'http://localhost/');
@@ -41,10 +42,12 @@ export function setUrl(path) {
     reload: () => {
     },
   };
+  history.location = window.location;
 }
 
 export function resetUrl() {
   window.location = originalLocation;
+  history.location = originalHistoryLocation;
 }
 
 export function bootstrap() {
