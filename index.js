@@ -29,10 +29,17 @@ export function setUrl(path) {
 
   delete window.location;
   window.location = {
-    pathname: url.pathname,
+    hash: url.hash,
+    host: url.host,
+    hostname: url.hostname,
     href: url.href,
+    origin: url.origin,
+    pathname: url.pathname,
+    port: url.port,
+    protocol: url.protocol,
     search: url.search,
-    reload: () => {},
+    reload: () => {
+    },
   };
 }
 
