@@ -1,3 +1,27 @@
+## [0.2.5](https://github.com/miaoxing/mxjs-test/compare/v0.2.4...v0.2.5) (2022-06-01)
+
+
+### Bug Fixes
+
+* **test:** 解决 `setUrl` 后 `window.location` 缺少属性 ([39af54f](https://github.com/miaoxing/mxjs-test/commit/39af54f6482afc144ce061eb8aae7a2f3dfb6fac))
+
+
+### Features
+
+* **test:** `setUrl` 时也设置 `history.location` 的值 ([0a40092](https://github.com/miaoxing/mxjs-test/commit/0a400925eba3305189e6a34ea5043f799fef595c))
+* **test:** 测试时设置 `apiRewrite` ([633806b](https://github.com/miaoxing/mxjs-test/commit/633806b2ee4861fbce8584cbb0ebef3821c11992))
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.1` to `0.4.2`
+* **@mxjs/app:** upgrade from `0.4.3` to `0.5.0`
+* **@mxjs/axios:** upgrade from `0.1.10` to `0.1.11`
+* **@miaoxing/dev:** upgrade from `8.1.0` to `8.1.1`
+
 ## [0.2.4](https://github.com/miaoxing/mxjs-test/compare/v0.2.3...v0.2.4) (2022-03-31)
 
 
