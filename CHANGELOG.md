@@ -1,3 +1,21 @@
+# [1.0.0](https://github.com/miaoxing/mxjs-test/compare/v0.2.6...v1.0.0) (2022-07-01)
+
+
+### Features
+
+* 发布 1.0.0 [release 1.0.0] ([0ec4a03](https://github.com/miaoxing/mxjs-test/commit/0ec4a03e1908722f748fadb42e294f6b6a6e645a))
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.2` to `0.4.3`
+* **@mxjs/app:** upgrade from `0.5.1` to `0.5.2`
+* **@mxjs/axios:** upgrade from `0.1.11` to `1.0.0`
+* **@miaoxing/dev:** upgrade from `8.1.1` to `8.1.2`
+
 ## [0.2.6](https://github.com/miaoxing/mxjs-test/compare/v0.2.5...v0.2.6) (2022-06-06)
 
 
