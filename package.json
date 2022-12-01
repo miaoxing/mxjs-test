@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "miaoxing": "^0.4.4",
+    "miaoxing": "^0.4.5",
     "@mxjs/app": "^0.5.3",
-    "@mxjs/axios": "^1.0.1"
+    "@mxjs/axios": "^1.0.2"
   },
   "devDependencies": {
     "@miaoxing/dev": "^8.1.3"
