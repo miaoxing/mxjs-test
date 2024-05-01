@@ -1,4 +1,5 @@
-import {createPromise, resetUrl, setUrl} from '../';
+import { bootstrap, createPromise, resetUrl, setUrl } from '../';
+import $ from 'miaoxing';
 
 describe('test', () => {
   test('createPromise', async () => {
@@ -22,5 +23,13 @@ describe('test', () => {
     resetUrl();
 
     expect(window.location.href).toBe('http://localhost/');
+  });
+
+  test('$.to', () => {
+    setUrl('/');
+
+    bootstrap();
+    $.to('test');
+    expect(window.location.href).toBe('/test');
   });
 });
