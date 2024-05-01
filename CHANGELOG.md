@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-test/compare/v1.0.11...v1.1.0) (2024-05-01)
+
+
+### Features
+
+* **test:** 增加 `$.to` 的实现 ([1b894d8](https://github.com/miaoxing/mxjs-test/commit/1b894d8a648276bff6dc111edc70da40958fc4b8))
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.13` to `0.4.14`
+* **@mxjs/app:** upgrade from `0.6.6` to `0.7.0`
+* **@mxjs/axios:** upgrade from `2.1.5` to `2.1.6`
+
 ## [1.0.11](https://github.com/miaoxing/mxjs-test/compare/v1.0.10...v1.0.11) (2024-03-31)
 
 
