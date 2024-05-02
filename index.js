@@ -78,5 +78,5 @@ export function bootstrap() {
       return window.location.replace(url);
     }
     return window.location.href = url;
-  }
+  };
 }
