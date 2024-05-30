@@ -1,3 +1,25 @@
+# [2.0.0](https://github.com/miaoxing/mxjs-test/compare/v1.1.0...v2.0.0) (2024-05-30)
+
+
+### Features
+
+* **test:** 移除 `history` 相关功能 ([0172254](https://github.com/miaoxing/mxjs-test/commit/0172254e0fb92fee328d8a6ac086e881a7e9ee93))
+
+
+### BREAKING CHANGES
+
+* **test:** 移除 `history` 相关功能
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.14` to `0.4.15`
+* **@mxjs/app:** upgrade from `0.7.0` to `0.8.0`
+* **@mxjs/axios:** upgrade from `2.1.6` to `2.2.0`
+
 # [1.1.0](https://github.com/miaoxing/mxjs-test/compare/v1.0.11...v1.1.0) (2024-05-01)
 
 
