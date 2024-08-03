@@ -1,3 +1,16 @@
+## [2.0.3](https://github.com/miaoxing/mxjs-test/compare/v2.0.2...v2.0.3) (2024-08-03)
+
+
+
+
+
+### Dependencies
+
+* **miaoxing:** upgrade from `0.4.17` to `0.4.18`
+* **@mxjs/app:** upgrade from `0.8.1` to `0.8.2`
+* **@mxjs/axios:** upgrade from `2.2.2` to `2.2.3`
+* **@miaoxing/dev:** upgrade from `9.1.2` to `9.1.3`
+
 ## [2.0.2](https://github.com/miaoxing/mxjs-test/compare/v2.0.1...v2.0.2) (2024-08-02)
 
 
