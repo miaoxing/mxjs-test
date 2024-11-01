@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/test",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "miaoxing": "^0.4.19",
-    "@mxjs/app": "^0.8.3",
+    "@mxjs/app": "^0.8.4",
     "@mxjs/axios": "^2.2.4"
   },
   "devDependencies": {
